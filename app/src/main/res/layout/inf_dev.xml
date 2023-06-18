@@ -1,0 +1,150 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear16"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical"
+		android:layout_gravity="center_horizontal|center_vertical">
+		<LinearLayout
+			android:id="@+id/linear6"
+			android:layout_width="match_parent"
+			android:layout_height="300dp"
+			android:padding="8dp"
+			android:background="#673AB7"
+			android:gravity="center_horizontal"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear7"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="horizontal">
+				<LinearLayout
+					android:id="@+id/linear8"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical"
+					android:layout_weight="1">
+					<ImageView
+						android:id="@+id/imageview1"
+						android:focusable="false"
+						android:layout_width="80dp"
+						android:layout_height="80dp"
+						android:src="@drawable/spl"
+						android:scaleType="fitCenter" />
+					<TextView
+						android:id="@+id/textview2"
+						android:focusable="false"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="8dp"
+						android:padding="8dp"
+						android:text="بياع أحزان "
+						android:textSize="20sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear10"
+				android:layout_width="300dp"
+				android:layout_height="1dp"
+				android:padding="8dp"
+				android:background="#FFFFFF"
+				android:orientation="horizontal" />
+			<LinearLayout
+				android:id="@+id/linear9"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="right"
+				android:orientation="horizontal"
+				android:layout_weight="1">
+				<TextView
+					android:id="@+id/textview4"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="برنامج بوستات حزينه اتمني ان ينل اعجبك ي ✨صديقي✨\n\nBy Mohamed Ayman (Stohy)"
+					android:textSize="16sp"
+					android:textColor="#FFFFFF" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear11"
+				android:layout_width="260dp"
+				android:layout_height="1dp"
+				android:padding="8dp"
+				android:background="#FFFFFF"
+				android:orientation="horizontal" />
+			<TextView
+				android:id="@+id/textview3"
+				android:focusable="false"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="7dp"
+				android:padding="8dp"
+				android:text="V 1.0"
+				android:textSize="12sp"
+				android:textColor="#E0E0E0" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear12"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="15dp"
+			android:background="#673AB7"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal"
+			android:layout_gravity="center_horizontal|center_vertical">
+			<ImageView
+				android:id="@+id/fes"
+				android:focusable="false"
+				android:layout_width="98dp"
+				android:layout_height="95dp"
+				android:src="@drawable/app_1"
+				android:scaleType="fitXY"
+				android:layout_gravity="center_horizontal|center_vertical" />
+			<LinearLayout
+				android:id="@+id/linear14"
+				android:layout_width="25dp"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal"
+				android:layout_weight="1" />
+			<ImageView
+				android:id="@+id/yt"
+				android:focusable="false"
+				android:layout_width="90dp"
+				android:layout_height="90dp"
+				android:src="@drawable/app_2"
+				android:scaleType="fitXY"
+				android:layout_gravity="center_horizontal|center_vertical" />
+			<LinearLayout
+				android:id="@+id/linear15"
+				android:layout_width="25dp"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal"
+				android:layout_weight="1" />
+			<ImageView
+				android:id="@+id/wts"
+				android:focusable="false"
+				android:layout_width="80dp"
+				android:layout_height="75dp"
+				android:layout_marginTop="8dp"
+				android:src="@drawable/app_3"
+				android:scaleType="fitXY"
+				android:layout_gravity="center_horizontal|center_vertical" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

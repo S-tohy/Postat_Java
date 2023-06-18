@@ -1,0 +1,77 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/bg"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="5dp"
+		android:background="#212121"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="vertical"
+		android:layout_gravity="center_horizontal|center_vertical">
+		<LinearLayout
+			android:id="@+id/linear10"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#673AB7"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical"
+			android:layout_gravity="center_horizontal|center_vertical">
+			<ImageView
+				android:id="@+id/imageview2"
+				android:focusable="false"
+				android:layout_width="120dp"
+				android:layout_height="120dp"
+				android:src="@drawable/spl"
+				android:scaleType="fitXY" />
+		</LinearLayout>
+		<Button
+			android:id="@+id/bt1"
+			android:focusable="false"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:padding="10dp"
+			android:background="#673AB7"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="حول البرنامج"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_gravity="center_horizontal|center_vertical" />
+		<Button
+			android:id="@+id/bt2"
+			android:focusable="false"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:padding="10dp"
+			android:background="#673AB7"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="مشاركة التطبيق"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_gravity="center_horizontal|center_vertical" />
+		<Button
+			android:id="@+id/bt3"
+			android:focusable="false"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:padding="10dp"
+			android:background="#673AB7"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="بــــــحــــــبــــــك"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_gravity="center_horizontal|center_vertical" />
+	</LinearLayout>
+</LinearLayout>
